@@ -118,8 +118,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 {craftland}
 
 <b>Follow Admins for API & Token Giveaways:</b>
-dhruva = https://t.me/Api_Discussion_Group
-Rahul = https://t.me/GlobalEarth_Gaming
+Channel~ https://t.me/IndTeamApis
 """
 
     await msg.edit_text(message, parse_mode="HTML")

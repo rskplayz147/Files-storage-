@@ -12,7 +12,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Replace with your Telegram bot token and ImgBB API key
-TELEGRAM_TOKEN = "8119013845:AAHjsNvMV3HVOxx2E_vSyIEyW3JVLL0P1JM"
+TELEGRAM_TOKEN = "8119013845:AAHqnTf8pdGPl8JLCD7WK24YK1G_g-RZRE0"
 IMGBB_API_KEY = "37a8908c36ddf77c1964cbc21b22bd9c"
 
 # Function to upload image to ImgBB and get various link types

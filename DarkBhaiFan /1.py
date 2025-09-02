@@ -9,6 +9,7 @@ from pyrogram.enums import ParseMode, PollType  # Added PollType import
 API_ID = 22118129
 API_HASH = "43c66e3314921552d9330a4b05b18800"
 BOT_TOKEN = "7507871835:AAEhryPzoN0KoYLpLo9G3gnK0npuCUdkDNc"
+
 app = Client("quizbot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
 # Temporary memory storage for quiz creation
@@ -209,4 +210,4 @@ async def txqz(client, message: Message):
 
 # ── RUN BOT ──
 print("Bot is running...")
-app.run())
+app.run()

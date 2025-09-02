@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 # API call
 def get_player_info(uid, region):
-    url = f"https://garenafreefireteams.onrender.com/player-info?uid={uid}&region={region}&key=2explainationskeysforujjaiwal"
+    url = f"https://testing-web-six-gamma.vercel.app/player-info?uid={uid}&region={region}"
     try:
         response = requests.get(url, timeout=10)
         return response.json()

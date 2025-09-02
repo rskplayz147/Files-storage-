@@ -6,7 +6,7 @@ from telegram.ext import Application, MessageHandler, filters, ContextTypes
 
 # Bot token
 BOT_TOKEN = "7817283574:AAHRNKv9KwUrlqsMNarCguAA7qD_1pwugMU"
-ALLOWED_GROUPS_ID = [-1002267560860, -1002284467099]  # Change this to your group IDs
+ALLOWED_GROUPS_ID = [-1002333835562, -1002284467099]  # Change this to your group IDs
 
 # Logger
 logging.basicConfig(level=logging.INFO)
